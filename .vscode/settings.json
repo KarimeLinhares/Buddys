@@ -1,0 +1,14 @@
+{
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"files.autoSave": "onFocusChange",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.useTabs": true,
+	"javascript.format.semicolons": "insert",
+	"typescript.format.semicolons": "insert",
+	"prettier.singleQuote": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.trailingComma": "all",
+	"prettier.bracketSameLine": true,
+	"prettier.vueIndentScriptAndStyle": true
+}

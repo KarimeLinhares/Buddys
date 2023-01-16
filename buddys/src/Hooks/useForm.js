@@ -6,6 +6,11 @@ const types = {
 			/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
 		message: 'Invalid data',
 	},
+	password: {
+		regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/,
+		message:
+			'Password should contain at least 1 digit, 1 lower case, 1 upper case, and at least 8 from the mentioned characters',
+	},
 };
 
 const useForm = (type) => {

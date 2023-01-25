@@ -54,6 +54,11 @@ input {
 	margin: 0 auto;
 }
 
+/* Feed */
+.mainContainer {
+	margin-top: 4rem;
+}
+
 .title {
 	font-family: var(--type-second);
 	line-height: 1;

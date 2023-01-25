@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { PHOTOS_GET } from '../../Api';
 import PhotoComments from './PhotoComments';
 import styles from './PhotoContent.module.css';
 
@@ -14,7 +13,7 @@ const PhotoContent = ({ data }) => {
 			</div>
 			<div className={styles.details}>
 				<div>
-					<p>
+					<p className={styles.author}>
 						<Link to={`/perfil/${photo.author}`}>@{photo.author}</Link>
 						<span className={styles.views}>{photo.acessos}</span>
 					</p>
@@ -25,7 +24,7 @@ const PhotoContent = ({ data }) => {
 						<li>{photo.peso} kg</li>
 						<li>
 							{photo.idade}
-							{photo.idade === 1 ? ' year' : ' years'};
+							{photo.idade > 1 ? ' years' : ' year'};
 						</li>
 					</ul>
 				</div>

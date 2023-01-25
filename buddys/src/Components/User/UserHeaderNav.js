@@ -11,7 +11,6 @@ import useMedia from '../../Hooks/useMedia';
 const UserHeaderNav = () => {
 	const { userLogout } = React.useContext(UserContext);
 	const mobile = useMedia('(max-width: 40rem)');
-	console.log(mobile);
 	const [mobileMenu, setMobileMenu] = React.useState(false);
 
 	// seta o menu como false ao mudar a rota

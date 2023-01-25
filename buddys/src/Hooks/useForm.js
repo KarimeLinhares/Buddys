@@ -11,6 +11,10 @@ const types = {
 		message:
 			'Password should contain at least 1 digit, 1 lower case, 1 upper case, and at least 8 from the mentioned characters',
 	},
+	number: {
+		regex: /^\d+$/,
+		message: 'Numbers only',
+	},
 };
 
 const useForm = (type) => {

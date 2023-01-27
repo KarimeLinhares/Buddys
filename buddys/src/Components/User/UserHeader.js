@@ -1,7 +1,7 @@
 import React from 'react';
 import UserHeaderNav from './UserHeaderNav';
-import styles from './UserHeader.module.css';
 import { useLocation } from 'react-router-dom';
+import styles from './UserHeader.module.css';
 
 const UserHeader = () => {
 	const [title, setTitle] = React.useState('');

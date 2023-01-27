@@ -17,7 +17,8 @@
 	cursor: pointer;
 }
 
-.photo img {
+/* o filho é a <div> da imagem */
+.photo > div {
 	grid-area: 1/1;
 }
 

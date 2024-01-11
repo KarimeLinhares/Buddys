@@ -1,5 +1,5 @@
 import React from 'react';
-import { COMMENT_POST } from '../../Api';
+import { COMMENT_POST } from '../../api';
 import useFetch from '../../Hooks/useFetch';
 import Error from '../Helper/Error';
 import { ReactComponent as Send } from '../../Assets/enviar.svg';

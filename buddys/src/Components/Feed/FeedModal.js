@@ -1,5 +1,5 @@
 import React from 'react';
-import { PHOTO_GET } from '../../Api';
+import { PHOTO_GET } from '../../api';
 import Error from '../Helper/Error';
 import Loading from '../Helper/Loading';
 import PhotoContent from '../Photo/PhotoContent';

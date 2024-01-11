@@ -6,7 +6,7 @@ import Input from '../Forms/Inputs';
 import Button from '../Forms/Buttons';
 import Error from '../Helper/Error';
 import Head from '../Helper/Head';
-import { PHOTO_POST } from '../../Api';
+import { PHOTO_POST } from '../../api';
 import styles from './UserPhotoPost.module.css';
 
 const UserPhotoPost = () => {
